@@ -1,0 +1,20 @@
+Describe the biggest difference between .forEach & .map.
+Map returns a new array of elements and passes each element back to the call back. .forEach executes the call back fuction once for each element in the array.
+
+
+What is the difference between a function and a method?
+A function can be defined outside of an object. A method is defined within an object
+
+What is closure?
+Closures are functions that refer to variables. The function defined in the closure remembers where it was created.
+
+Describe the four rules of the 'this' keyword.
+1. Global or Window Binding is when the context is outside of the fuction. This would refer to the the window or global binding if there is nothing else defined. Points to the forest.
+2. Implicit binding uses a proceeding dot. The object that this is refering to is on the left side of the dot. It also is a function that is inside of variable. Points to the tree.
+3. New Binding is a when a constructor function is used. When that happens then this refers to that instance of that object that was created by that function. It uses the new keyword. The function becomes an object creator. Kinda like planting your own tree and then pointing to it.
+4. Explicit binding referrs to whenever you use the keywords call and apply. You can use it to override the object for the contstructor function.
+
+Why do we need super() in an extended class?
+ super() is used to tell a parent  constructor to be concerned with the child’s attributes. Extends as a keyword will make it so you dont have to use class.call syntax. 
+ super() also takes away the need for object.create, this, and Class syntax.
+ Cleaner Code.
